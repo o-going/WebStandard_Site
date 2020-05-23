@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>layout02</title>
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #F2F2F2;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 1000px;
+        height: 900px; 
+        color: #fff;
+        font-size: 40px; 
+        text-align: center;
+    }
+    /* .wrap::after{
+        content: '';
+        display: block;
+        clear: left;
+    } */
+    .header{
+        width: 1000px;
+        height: 100px;
+        line-height: 100px;
+        background-color: rgb(157, 157, 246);
+    }
+    .nav{
+        width: 1000px;
+        height: 100px;
+        line-height: 100px;
+        background-color: rgb(145, 145, 218);
+    }
+    .side-left{
+        width: 300px;
+        height: 600px;
+        line-height: 600px;
+        background-color: rgb(121, 121, 179);
+        /* float: left; */
+        
+    }
+    .contents{
+        width: 400px;
+        height: 600px;
+        line-height: 600px;
+        background-color: rgb(96, 96, 149);
+        /* float: left; */
+        
+    }
+    .side-right{
+        width: 300px;
+        height: 600px;
+        line-height: 600px;
+        background-color: rgb(85, 85, 130);
+        /* float: left; */
+        
+    }
+    .footer{
+        width: 1000px;
+        height: 100px;
+        line-height: 100px;
+        background-color: rgb(65, 65, 101);
+        /* clear: left; */
+        /* float: left; */
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">header</div>
+        <div class="nav">nav</div>
+        <div class="side-left">side-left</div>
+        <div class="contents">contents</div>
+        <div class="side-right">side-right</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
