@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>layout06</title>
+    <style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrap{
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    /* header */
+    .header{
+        height: 140px;
+    }
+    .header-top{
+        height: 70px; 
+        background-color: red;
+    }
+    .header-nav{
+        height: 70px;
+        background-color: pink;
+    }
+    /* banner */
+    .banner{
+        height: 450px;
+        line-height: 450px;
+        background-color: yellow;
+    }
+    /* content */
+    .content{
+        height: 950px;
+        line-height: 950px;
+    }
+    .content1{
+        height: 90px;
+        line-height: 90px;
+        background-color: powderblue;
+    }
+    .content2{
+        height: 480px;
+        line-height: 480px;
+        background-color: skyblue;
+    }
+    .content3{
+        height: 380px;
+        line-height: 380px;
+        background-color: steelblue;
+    }
+    /* footer */
+    .footer{
+        height: 220px;
+        line-height: 220px;
+    }
+    .footer-nav{
+        height: 60px;
+        line-height: 60px;
+        background-color: green;
+    }
+    .footer-info{
+        height:160px;
+        line-height: 160px;
+        background-color: greenyellow;
+    }
+
+    /* container */
+    .container{
+        width: 1300px;
+        height: inherit;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    </style>
+    </head>
+<body>
+    <div class="wrap">
+        <div class="header">
+                <div class="header-top">
+                    <div class="container">
+                        header-top
+                    </div>
+                </div>
+                <div class="header-nav">
+                    <div class="container">
+                        header-nav
+                    </div>
+                </div>
+        </div>
+        <!-- //header -->
+        <div class="banner">
+            <div class="container">
+                banner
+            </div>
+        </div>
+        <!-- //banner -->
+        <div class="content">
+            <div class="content1">
+                <div class="container">
+                    content1
+                </div>
+            </div>
+            <div class="content2">
+                <div class="container">
+                    content2
+                </div>
+            </div>
+            <div class="content3">
+                <div class="container">
+                    content3
+                </div>
+            </div>
+        </div>
+        <!-- //content -->
+        <div class="footer">
+                <div class="footer-nav">
+                    <div class="container">
+                        footer-nav
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="container">
+                        footer-info
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
